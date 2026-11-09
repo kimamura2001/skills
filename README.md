@@ -6,7 +6,20 @@ AI エージェント（IBM Bob など）向けのスキル集です。スキル
 
 | スキル | 内容 |
 | --- | --- |
+| `git-commit` | 変更内容から Conventional Commit を作成する |
+| `github-pr` | Git の履歴から Pull Request のタイトル・本文を作り、`gh pr create` で PR を作成する |
+| `it-trends` | 国内外の主要ソースから日次ITトレンドを収集・要約する |
+| `meeting-minutes` | Meetily の文字起こしから構造化した議事録を作成する |
+| `weekly-note` | Obsidian 保管庫の週次ノートを作成する |
+| `solution-architect` | 業務要件から、業務概要・技術アーキテクチャ・実装計画の3文書を作成する |
+| `sop-builder` | ワークフロー図・Langflow/n8n JSON・BPMN などから SOP（標準作業手順書）を作成する |
+| `wxo-analyzer` | watsonx Orchestrate プロジェクトを解析し、全体・エージェント・ツール等の3種類のレポートを生成する |
+| `wxo-builder` | SOP や簡単なプロンプトから watsonx Orchestrate のエージェント・フロー・ツール・ナレッジベースを実装する |
 | `skill-template` | 新しいスキルを作るときの雛形 |
+
+## クレジット
+
+`git-commit`、`github-pr`、`it-trends`、`meeting-minutes`、`weekly-note` は [nonmot/skills](https://github.com/nonmot/skills) から取り込んだものです。
 
 ## 導入（プロジェクトごと）
 
